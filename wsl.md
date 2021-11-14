@@ -17,7 +17,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 
 > NOTE: WSL2 requires Windows 10 Version 1903 or higher, with Build 18362 or higher
 
-> TIP: To get automatic updates for WSL Kernel, enable "Receive updates for other Microsoft products when you update Windwos" in "Advanced Windows Update options"
+> TIP: To get automatic updates for WSL Kernel, enable "Receive updates for other Microsoft products when you update Windows" in "Advanced Windows Update options"
 
 1. Start PowerShell as Administrator
    1. Run `wsl --install`

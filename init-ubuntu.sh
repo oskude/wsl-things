@@ -40,12 +40,12 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
 echo "### Install Packages ########################################################"
 
-# TODO: i dont like this... BUT we do NOT want to have default ports there!
-# ALSO: we cannot start apache if ports.conf is empty!
 sudo apt install -y ${MY_PKGS[*]}
 
 echo "### Initialize Apache #######################################################"
 
+# TODO: i dont like this... BUT we do NOT want to have default ports there!
+# ALSO: we cannot start apache if ports.conf is empty!
 sudo cp /dev/null "$MY_APACHE_PORTS_FILE"
 
 # TODO: too "dangerous"?
